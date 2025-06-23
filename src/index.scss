@@ -1,0 +1,49 @@
+@import "bootstrap/scss/bootstrap";
+
+body {
+	background-color: #111;
+}
+
+.vocab_answer-list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: grid;
+	grid-template-columns: repeat( 2, 1fr );
+	justify-content: stretch;
+	width: 40rem;
+	gap: 1rem;
+	align-items: stretch;
+	margin: 0 auto;
+}
+
+.vocab_answer-btn {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.vocab_word {
+	font-size: 3rem;
+	text-align: center;
+	font-weight: 900;
+	background-color: #ddd;
+	padding: 1rem;
+	display: inline-block;
+	margin: 1rem auto;
+	border-radius: 1rem;
+}
+
+.vocab_word-container {
+	text-align: center;
+}
+
+.vocab_next-container {
+	text-align: center;
+	margin: 1rem auto;
+}
+
+.vocab_score {
+	color: #ddd;
+	margin: 1rem;
+}
